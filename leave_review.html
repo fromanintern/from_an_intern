@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From an Intern - Leave a Review</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>From an Intern</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="leave_review.html">Leave a Review</a>
+            <a href="reviews.html">Reviews</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Leave a Review</h2>
+        <form id="reviewForm">
+            <label for="name">Name (optional):</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" name="company" required>
+            
+            <label for="internshipPeriod">Internship Time Period:</label>
+            <input type="text" id="internshipPeriod" name="internshipPeriod" required>
+            
+            <label for="internshipType">Internship Type:</label>
+            <select id="internshipType" name="internshipType" required>
+                <option value="accounting">Accounting</option>
+                <option value="engineering">Engineering</option>
+                <option value="digital_media">Digital Media</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label>Was the environment collaborative?</label>
+            <input type="radio" id="collab1" name="collaborative" value="1" required>
+            <label for="collab1">1</label>
+            <input type="radio" id="collab2" name="collaborative" value="2">
+            <label for="collab2">2</label>
+            <input type="radio" id="collab3" name="collaborative" value="3">
+            <label for="collab3">3</label>
+            <input type="radio" id="collab4" name="collaborative" value="4">
+            <label for="collab4">4</label>
+            <input type="radio" id="collab5" name="collaborative" value="5">
+            <label for="collab5">5</label>
+
+            <!-- Repeat for other questions -->
+
+            <label for="overallRating">Overall Rating:</label>
+            <input type="radio" id="rating1" name="overallRating" value="1" required>
+            <label for="rating1">1</label>
+            <input type="radio" id="rating2" name="overallRating" value="2">
+            <label for="rating2">2</label>
+            <input type="radio" id="rating3" name="overallRating" value="3">
+            <label for="rating3">3</label>
+            <input type="radio" id="rating4" name="overallRating" value="4">
+            <label for="rating4">4</label>
+            <input type="radio" id="rating5" name="overallRating" value="5">
+            <label for="rating5">5</label>
+            
+            <label for="experience">Please share your experience interning with this company below:</label>
+            <textarea id="experience" name="experience"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

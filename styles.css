@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F3E7; /* Old Novel Tan */
+    color: #2C3E50; /* Adult Blue */
+}
+
+header {
+    background-color: #2C3E50; /* Adult Blue */
+    color: white;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    background-color: #E67E22; /* Hint of Life Orange */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #D35400; /* Darker Hint of Life Orange */
+}
