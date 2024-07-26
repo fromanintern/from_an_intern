@@ -1,129 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>From an Intern - About</title>
-    <style>
-        /* Importing fonts (adjust URL if necessary) */
-        @font-face {
-            font-family: 'Loos Condensed Regular';
-            src: url('path/to/loos-condensed-light.woff2') format('woff2'),
-                 url('path/to/loos-condensed-light.woff') format('woff');
-            font-weight: 300;
-        }
+/* Importing fonts from GitHub */
+@font-face {
+    font-family: 'Loos Condensed Light';
+    src: url('https://raw.githubusercontent.com/username/my-fonts/main/fonts/loos-condensed-light.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/username/my-fonts/main/fonts/loos-condensed-light.woff') format('woff');
+    font-weight: 300;
+}
 
-        @font-face {
-            font-family: 'Loos Condensed Regular';
-            src: url('path/to/loos-condensed-regular.woff2') format('woff2'),
-                 url('path/to/loos-condensed-regular.woff') format('woff');
-            font-weight: 400;
-        }
+@font-face {
+    font-family: 'Loos Condensed Regular';
+    src: url('https://raw.githubusercontent.com/username/my-fonts/main/fonts/loos-condensed-regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/username/my-fonts/main/fonts/loos-condensed-regular.woff') format('woff');
+    font-weight: 400;
+}
 
-        body {
-            font-family: 'Loos Condensed Light', sans-serif; /* Default font */
-            background-color: #E0F2F1; /* Feeling Alive Green */
-            color: #333333; /* So Much Darkness Grey */
-            margin: 0;
-            padding: 0;
-        }
+body {
+    font-family: 'Loos Condensed Light', sans-serif;
+    background-color: #E0F2F1; /* Feeling Alive Green */
+    color: #333333; /* So Much Darkness Grey */
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /* Increased font size */
+}
 
-        header {
-            background-color: #333333; /* So Much Darkness Grey */
-            color: white;
-            padding: 1em;
-            text-align: center; /* Center the title */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+header {
+    background-color: #333333; /* So Much Darkness Grey */
+    color: white;
+    padding: 1em;
+    text-align: center; /* Center the title */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        header h1 {
-            margin: 0;
-            font-family: 'Loos Condensed Regular', sans-serif; /* Heading font */
-        }
+header h1 {
+    margin: 0;
+    font-family: 'Loos Condensed Regular', sans-serif; /* Heading font */
+}
 
-        nav {
-            display: flex;
-            justify-content: space-around; /* Evenly spaced tabs */
-            width: 100%;
-            max-width: 1200px; /* Optional: Set a max-width for better alignment */
-            margin: 0 auto; /* Center nav */
-        }
+nav {
+    display: flex;
+    justify-content: space-around; /* Evenly spaced tabs */
+    width: 100%;
+    max-width: 1200px; /* Optional: Set a max-width for better alignment */
+    margin: 0 auto; /* Center nav */
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5em;
-        }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+nav a:hover {
+    text-decoration: underline;
+}
 
-        main {
-            padding: 2em;
-            text-align: center;
-        }
+.button-container {
+    text-align: center;
+    margin-bottom: 0.5in; /* Half inch margin between the button and the About section */
+}
 
-        main h2 {
-            font-family: 'Loos Condensed Regular', sans-serif; /* Subheading font */
-        }
+main {
+    padding: 2em;
+    text-align: center;
+}
 
-        p {
-            font-family: 'Loos Condensed Light', sans-serif; /* Paragraph font */
-        }
+main h2 {
+    font-family: 'Loos Condensed Regular', sans-serif; /* Subheading font */
+}
 
-        img {
-            max-width: 100%;
-            height: auto;
-        }
+p {
+    font-family: 'Loos Condensed Light', sans-serif; /* Paragraph font */
+}
 
-        form label {
-            display: block;
-            margin-top: 1em;
-            font-family: 'Loos Condensed Light', sans-serif; /* Label font */
-        }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
-        form input, form select, form textarea {
-            width: 100%;
-            padding: 0.5em;
-            margin-top: 0.5em;
-        }
+form label {
+    display: block;
+    margin-top: 1em;
+    font-family: 'Loos Condensed Light', sans-serif; /* Label font */
+}
 
-        form button {
-            background-color: #FFA726; /* Hint of Life Orange */
-            color: white;
-            border: none;
-            padding: 0.5em 1em;
-            margin-top: 1em;
-            cursor: pointer;
-        }
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
 
-        form button:hover {
-            background-color: #FB8C00; /* Darker Hint of Life Orange */
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>From an Intern</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="leave_review.html">Leave a Review</a>
-            <a href="reviews.html">Reviews</a>
-        </nav>
-    </header>
-    <main>
-        <h2>About Us</h2>
-        <p>
-            From an Intern aims to connect young professionals through the challenges of searching, applying, and participating in internships. Our platform allows users to share insights into their internships on our review page and connect through stories and tips on our blog spot.
-        </p>
-        <p>
-            Whether you’re in search of the scoop on an internship that interests you, looking for tips on how to land your first interview, or hoping to relate to a fellow struggling intern, welcome! We hope that From an Intern can be a resource for you, because, well, we’ve been there.
-        </p>
-        <img src="buttons_logo_2.0.png" alt="Review My Internship and Explore The Blog">
-    </main>
-</body>
-</html>
+form button {
+    background-color: #FFA726; /* Hint of Life Orange */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FB8C00; /* Darker Hint of Life Orange */
+}
