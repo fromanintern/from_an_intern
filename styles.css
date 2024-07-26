@@ -7,7 +7,7 @@
     <style>
         /* Importing fonts (adjust URL if necessary) */
         @font-face {
-            font-family: 'Loos Condensed Light';
+            font-family: 'Loos Condensed Regular';
             src: url('path/to/loos-condensed-light.woff2') format('woff2'),
                  url('path/to/loos-condensed-light.woff') format('woff');
             font-weight: 300;
