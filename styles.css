@@ -68,6 +68,9 @@ nav a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 1em;
+    color: transparent; /* Hide the text */
+    text-align: center;
+    line-height: 100px; /* Center the text vertically */
 }
 
 .button-top {
@@ -77,6 +80,7 @@ nav a:hover {
 .button-bottom {
     background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_buttons_bottom.png');
 }
+
 
 main {
     padding: 2em;
