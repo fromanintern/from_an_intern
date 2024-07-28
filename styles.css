@@ -74,12 +74,13 @@ nav a:hover {
 }
 
 .button-top {
-    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_buttons_top.png');
+    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/review%20my%20internship.png');
 }
 
 .button-bottom {
-    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_buttons_bottom.png');
+    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_button_bottom.png');
 }
+
 
 
 main {
