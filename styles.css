@@ -60,34 +60,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.button-container {
-    display: flex;
-    gap: 2px; /* Reduced space between images */
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 0.5in; /* Half inch margin between the button and the Home section */
-}
-
-.button {
-    display: block;
-    width: 510px; /* Adjust based on your image dimensions */
-    height: 170px; /* Adjust based on your image dimensions */
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 1em;
-    color: transparent; /* Hide the text */
-    text-align: center;
-    line-height: 100px; /* Center the text vertically */
-}
-
-.button-top {
-    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/review%20my%20internship.png');
-}
-
-.button-bottom {
-    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_button_bottom.png');
-}
-
 main {
     padding: 2em;
     text-align: center;
