@@ -1,20 +1,20 @@
 /* Importing fonts from GitHub */
 @font-face {
-    font-family: 'Loos Normal Regular';
+    font-family: 'Loos Condensed Light';
     src: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-light.woff2') format('woff2'),
          url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-light.woff') format('woff');
     font-weight: 300;
 }
 
 @font-face {
-    font-family: 'Loos Normal Regular';
+    font-family: 'Loos Condensed Regular';
     src: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-regular.woff2') format('woff2'),
          url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-regular.woff') format('woff');
     font-weight: 400;
 }
 
 body {
-    font-family: 'Loos Normal Regular', sans-serif;
+    font-family: 'Loos Condensed Regular', sans-serif;
     background-color: #E0F2F1; /* Feeling Alive Green */
     color: #333333; /* So Much Darkness Grey */
     margin: 0;
@@ -34,16 +34,15 @@ header {
 
 header h1 {
     margin: 0;
-    font-family: 'Loos Regular', sans-serif; /* Heading font */
+    font-family: 'Loos Condensed Regular', sans-serif; /* Heading font */
 }
 
 nav {
     display: flex;
     justify-content: space-around; /* Evenly spaced tabs */
     width: 100%;
-    max-width: 1200px; /* Optional: Set a max-width for better alignment */
-    margin: 0 auto; /* Center nav */
-}
+    max-width: 1200px; /* Optional: Set a max-width for better alignment
+
 
 nav a {
     color: white;
