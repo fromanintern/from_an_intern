@@ -1,4 +1,4 @@
-/* Importing fonts from GitHub */
+-/* Importing fonts from GitHub */
 @font-face {
     font-family: 'Loos Condensed Light';
     src: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-light.woff2') format('woff2'),
@@ -58,6 +58,34 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+    gap: 5px; /* Adjust the space between buttons */
+    margin-bottom: 0.5in; /* Adjust the margin as needed */
+}
+
+.button {
+    display: block;
+    width: 510px; /* Adjust based on your image dimensions */
+    height: 170px; /* Adjust based on your image dimensions */
+    background-size: cover; /* Ensures images cover the button */
+    background-repeat: no-repeat;
+    color: transparent; /* Hide the text */
+    text-align: center;
+    line-height: 170px; /* Center the text vertically if used */
+    border: none; /* Remove border if needed */
+}
+
+.button-top {
+    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/review%20my%20internship.png');
+}
+
+.button-bottom {
+    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_button_bottom.png');
 }
 
 main {
