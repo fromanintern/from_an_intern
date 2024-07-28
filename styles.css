@@ -56,16 +56,17 @@ nav a:hover {
 }
 
 .button-container {
-    position: relative;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 0.5in; /* Half inch margin between the button and the About section */
 }
 
 .button {
     display: block;
-    width: 200px; /* Adjust based on your image dimensions */
+    width: 300px; /* Adjust based on your image dimensions */
     height: 100px; /* Adjust based on your image dimensions */
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 1em;
     color: transparent; /* Hide the text */
@@ -80,6 +81,7 @@ nav a:hover {
 .button-bottom {
     background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_button_bottom.png');
 }
+
 
 
 
