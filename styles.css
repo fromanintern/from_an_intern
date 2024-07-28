@@ -69,7 +69,7 @@ nav a:hover {
     height: 200px; /* Adjust based on your image dimensions */
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: .25em;
+    margin-bottom: .5em;
     text-indent: -9999px; /* Hide text */
 }
 
