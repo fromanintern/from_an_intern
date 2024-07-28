@@ -87,17 +87,20 @@ main {
     text-align: center;
 }
 
-.about-section {
+.about-section,
+.blog-spot-section {
     margin: 0 4in; /* 4 inches margin on both sides */
     padding: 0.5in; /* Half inch padding inside the white box */
     background-color: white; /* White background */
     border: 1px solid #333333; /* Black border around the white box */
 }
 
-.about-section h2 {
+.about-section h2,
+.blog-spot-section h2 {
     margin-top: 0; /* Remove default top margin for h2 */
 }
 
-.about-section p {
+.about-section p,
+.blog-spot-section p {
     margin-top: 1em; /* Top margin for paragraphs inside about section */
 }
