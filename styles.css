@@ -1,15 +1,15 @@
 /* Importing fonts from GitHub */
 @font-face {
     font-family: 'Loos Condensed Light';
-    src: url('https://raw.githubusercontent.com/username/my-fonts/main/fonts/loos-condensed-light.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/username/my-fonts/main/fonts/loos-condensed-light.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-light.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-light.woff') format('woff');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Loos Condensed Regular';
-    src: url('https://raw.githubusercontent.com/username/my-fonts/main/fonts/loos-condensed-regular.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/username/my-fonts/main/fonts/loos-condensed-regular.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-regular.woff') format('woff');
     font-weight: 400;
 }
 
@@ -61,39 +61,21 @@ nav a:hover {
     margin-bottom: 0.5in; /* Half inch margin between the button and the About section */
 }
 
-.button-container img {
-    max-width: 100%;
-    height: auto;
-}
-
 .button {
-    position: absolute;
     display: block;
-    width: 100px; /* Adjust to the size of each button */
-    height: 100px; /* Adjust to the size of each button */
-    background: transparent;
-    border: none;
-    cursor: pointer;
+    width: 200px; /* Adjust based on your image dimensions */
+    height: 100px; /* Adjust based on your image dimensions */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
 }
 
 .button-top {
-    top: 0; /* Adjust based on image positioning */
-    left: 0; /* Adjust based on image positioning */
-    background: url('buttons_logo_2.0.png') no-repeat;
-    background-position: 0 0;
-    background-size: cover;
+    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_buttons_top.png');
 }
 
 .button-bottom {
-    bottom: 0; /* Adjust based on image positioning */
-    left: 0; /* Adjust based on image positioning */
-    background: url('buttons_logo_2.0.png') no-repeat;
-    background-position: 0 -100px; /* Adjust based on image positioning */
-    background-size: cover;
-}
-
-.button:hover {
-    opacity: 0.8; /* Slightly darken the image on hover */
+    background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_buttons_bottom.png');
 }
 
 main {
@@ -131,10 +113,4 @@ form button {
     color: white;
     border: none;
     padding: 0.5em 1em;
-    margin-top: 1em;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #FB8C00; /* Darker Hint of Life Orange */
-}
+    margin
