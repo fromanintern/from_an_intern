@@ -41,8 +41,9 @@ nav {
     display: flex;
     justify-content: space-around; /* Evenly spaced tabs */
     width: 100%;
-    max-width: 1200px; /* Optional: Set a max-width for better alignment
-
+    max-width: 1200px; /* Optional: Set a max-width for better alignment */
+    margin: 0 auto; /* Center nav */
+}
 
 nav a {
     color: white;
@@ -81,42 +82,9 @@ nav a:hover {
     background-image: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/images/about_button_bottom.png');
 }
 
-
-
-
 main {
     padding: 2em;
     text-align: center;
 }
 
-main h2 {
-    font-family: 'Loos Condensed Regular', sans-serif; /* Subheading font */
-}
-
-p {
-    font-family: 'Loos Condensed Light', sans-serif; /* Paragraph font */
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-form label {
-    display: block;
-    margin-top: 1em;
-    font-family: 'Loos Condensed Light', sans-serif; /* Label font */
-}
-
-form input, form select, form textarea {
-    width: 100%;
-    padding: 0.5em;
-    margin-top: 0.5em;
-}
-
-form button {
-    background-color: #FFA726; /* Hint of Life Orange */
-    color: white;
-    border: none;
-    padding: 0.5em 1em;
-    margin
+main h
