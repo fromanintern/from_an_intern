@@ -1,4 +1,4 @@
--/* Importing fonts from GitHub */
+/* Importing fonts from GitHub */
 @font-face {
     font-family: 'Loos Condensed Light';
     src: url('https://raw.githubusercontent.com/fromanintern/from_an_intern/main/fonts/loos-condensed-light.woff2') format('woff2'),
@@ -62,22 +62,22 @@ nav a:hover {
 
 .button-container {
     display: flex;
-    flex-direction: column; /* Stack buttons vertically */
+    flex-direction: column; 
     align-items: center;
-    gap: 5px; /* Adjust the space between buttons */
-    margin-bottom: 0.5in; /* Adjust the margin as needed */
+    gap: 5px;
+    margin-bottom: 0.5in; /* Half inch margin between the button and the About section */
 }
 
 .button {
     display: block;
     width: 510px; /* Adjust based on your image dimensions */
     height: 170px; /* Adjust based on your image dimensions */
-    background-size: cover; /* Ensures images cover the button */
+    background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 1em;
     color: transparent; /* Hide the text */
     text-align: center;
-    line-height: 170px; /* Center the text vertically if used */
-    border: none; /* Remove border if needed */
+    line-height: 100px; /* Center the text vertically */
 }
 
 .button-top {
@@ -93,20 +93,17 @@ main {
     text-align: center;
 }
 
-.home-section,
-.blog-spot-section {
+.about-section {
     margin: 0 4in; /* 4 inches margin on both sides */
     padding: 0.5in; /* Half inch padding inside the white box */
     background-color: white; /* White background */
     border: 1px solid #333333; /* Black border around the white box */
 }
 
-.home-section h2,
-.blog-spot-section h2 {
+.about-section h2 {
     margin-top: 0; /* Remove default top margin for h2 */
 }
 
-.home-section p,
-.blog-spot-section p {
-    margin-top: 1em; /* Top margin for paragraphs inside the section */
+.about-section p {
+    margin-top: 1em; /* Top margin for paragraphs inside about section */
 }
