@@ -3,42 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>From an Intern - Home</title>
+    <title>From an Intern - About</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Inline CSS for demonstration; move this to your styles.css file */
-        .text-button {
-            border: none;
-            padding: 10px 20px;
-            background-color: #007BFF; /* Bootstrap Blue, adjust as needed */
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            border-radius: 4px; /* Optional: rounded corners */
-            margin: 10px 0;
-        }
-
-        .text-button:hover {
-            background-color: #0056b3; /* Darker blue for hover effect */
-        }
-    </style>
 </head>
 <body>
     <header>
-        <a href="index.html" class="title-link"><h1>From an Intern</h1></a>
+        <h1>From an Intern</h1>
         <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
             <a href="leave_review.html">Leave a Review</a>
-            <a href="blogspot.html">Blog Spot</a>
+            <a href="reviews.html">Reviews</a>
         </nav>
     </header>
     <main>
-        <h2>Welcome to From an Intern</h2>
-        <p>From an Intern aims to connect young professionals through the challenges of searching, applying, and participating in internships. Our duo platform allows users to share insight into their internships on our review page and connect through stories and tips on our blog spot.  
-
-        Whether you’re in search of the scoop on an internship that interests you, looking for tips on how to land your first interview, or hoping to relate to a fellow struggling intern, welcome!  We hope that From an Intern can be a resource for you, because, well, we’ve been there.</p>
+        <div class="button-container">
+            <a href="leave_review.html" class="button button-top" title="Review My Internship">Review My Internship</a>
+            <a href="blog.html" class="button button-bottom" title="Explore The Blog">Explore The Blog</a>
+        </div>
+        <div class="about-section">
+            <h2>About Us</h2>
+            <p>
+                From an Intern aims to connect young professionals through the challenges of searching, applying, and participating in internships. Our duo platform allows users to share insight into their internships on our review page and connect through stories and tips on our blog spot.
+            </p>
+            <p>
+                Whether you’re in search of the scoop on an internship that interests you, looking for tips on how to land your first interview, or hoping to relate to a fellow struggling intern, welcome! We hope that From an Intern can be a resource for you, because, well, we’ve been there.
+            </p>
+        </div>
     </main>
 </body>
 </html>
