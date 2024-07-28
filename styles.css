@@ -65,8 +65,8 @@ nav a:hover {
 
 .button {
     display: block;
-    width: 300px; /* Adjust based on your image dimensions */
-    height: 100px; /* Adjust based on your image dimensions */
+    width: 600px; /* Adjust based on your image dimensions */
+    height: 200px; /* Adjust based on your image dimensions */
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 1em;
