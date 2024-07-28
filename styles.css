@@ -59,8 +59,8 @@ nav a:hover {
     display: flex;
     flex-direction: column; /* Stack buttons vertically */
     align-items: center;
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove any padding */
+    gap: 5px; /* Space between buttons, adjust as needed */
+    margin: 0; /* Remove margin */
 }
 
 .button {
@@ -70,7 +70,6 @@ nav a:hover {
     background-size: cover; /* Ensures images cover the button */
     background-repeat: no-repeat;
     border: none; /* Remove border if needed */
-    margin-bottom: -10px; /* Negative margin to pull images closer together */
 }
 
 .button-top {
