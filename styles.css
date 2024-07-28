@@ -86,6 +86,14 @@ main {
     text-align: center;
 }
 
+.index-section, .blog-section {
+    background-color: white;
+    border-radius: 15px; /* Rounded corners */
+    margin: 0 4in; /* 4 inch margins on the sides */
+    padding: 0.5in; /* Half inch padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
+}
+
 main h2 {
     font-family: 'Loos Condensed Regular', sans-serif; /* Subheading font */
 }
