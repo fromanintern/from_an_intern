@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: 'Loos Condensed Light', sans-serif;
+    font-family: 'Loos Regular', sans-serif;
     background-color: #E0F2F1; /* Feeling Alive Green */
     color: #333333; /* So Much Darkness Grey */
     margin: 0;
@@ -34,7 +34,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-family: 'Loos Condensed Regular', sans-serif; /* Heading font */
+    font-family: 'Loos Regular', sans-serif; /* Heading font */
 }
 
 nav {
